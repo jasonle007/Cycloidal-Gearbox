@@ -95,6 +95,10 @@ The final design calculated the output pin holes to be the (diameter + 2*eccentr
   - Prusa i3 MK3s+
   - PETg filament
  
+- Slicing
+  - XY - compensation to account for hole shrinkage as filament expands. In my case a value of -0.15mm worked best to pull back the walls of the holes by a diameter of 0.3mm, since past prototype prints would result in a hole shrinkage of 0.3mm
+  - Elephant compensation to account for first layer filament spread. The first layer expanded roughly about 0.15mm outwards from the rest of the print, so the default value of 0.20mm worked best when printing PETg
+ 
 ### BOM
 | Item                                                      | Note                                                  | Quantity | Price  | Total      | Link         |
 | --------------------------------------------------------- | ----------------------------------------------------- | -------- | ------ | ---------- | ------------ |
