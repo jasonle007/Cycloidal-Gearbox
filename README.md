@@ -118,8 +118,8 @@ With filament supplied from the lab, the rest of the components came out to a to
 
 
 ## Results
-- Reduction ratio: 17:1
-- Maximum output torque: 40-50 Nm
+- Reduction ratio: 16:1
+- Maximum output torque: 10-12 Nm
 - Number of design iterations: 20+
 - Material: PETG
 - Print time: 40+ hours (inclduing prototyping)
